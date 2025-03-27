@@ -4,6 +4,13 @@ body {
     text-align: center;
     color: antiquewhite;
     align-content: justify;
+    justify-content: center;
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 h1 {
@@ -19,7 +26,36 @@ h3 {
 li {
     list-style-position: inside;
     list-style-type: square;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-align: center;
 }
 #primeiraimagem {
     border-radius: 50%;
+}
+#mapa {
+    border-radius: 50%;
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+.flex-container > div {
+    background-color: #000000;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.container {
+    margin: auto;
+    max-width: 350px;
+    max-height: 350px;
+}
+footer {
+    background-color: #070014;
+    text-align: center;
+    padding: 10px;
+    color: #FA4E00;
 }
